@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  background-color: #161616;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(47, 45, 45);
+  height: 480px;
+  width: 290px;
+  border: none;
+  border-radius: 6px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 2;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin: 16px;
+  object-fit: cover;
+}
+
+.name {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+  color: greenyellow;
+  font-size: 15px;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+button {
+  width: 230px;
+  height: 38px;
+  margin-bottom: 18px;
+  background-color: rgb(79, 79, 79);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.github,.facebook,.linkedin,.codepen {
+  transition: all 0.35s ease;
+}
+
+.github:hover {
+  background-color: #c45845;
+  transform: scale(1.08);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.543);
+  letter-spacing: 4px;
+  transition: 0.15s;
+}
+
+.facebook:hover {
+  background-color: #3c3cb6;
+  transform: scale(1.08);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.543);
+  letter-spacing: 4px;
+  transition: 0.15s;
+}
+
+.linkedin:hover {
+  background-color: #397fbd;
+  transform: scale(1.08);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.543);
+  letter-spacing: 4px;
+  transition: 0.15s;
+}
+
+.codepen:hover {
+  background-color: #9abb37;
+  transform: scale(1.08);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.543);
+  letter-spacing: 4px;
+  transition: 0.15s;
+}
